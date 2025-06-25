@@ -74,7 +74,19 @@ body{
 .card:hover{
     transform: scale(1.05);
 }
-.dragging{
+
+.context-menu{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 10px 0px;
+    border-radius: 4px;
+   /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+
+}
+.context-menu ul li{
+    list-style: none;
+    padding: 8px 20px;
+    cursor: pointer;
     
-    cursor: grab;
 }
