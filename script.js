@@ -1,6 +1,6 @@
 function addTask(columnId) {
     const input = document.getElementById(`${columnId}-input`);
-    const taskText = input.value;
+    const taskText = input.value.trim(); // Trim whitespace from the input text
    
 
     if(taskText ==""){
