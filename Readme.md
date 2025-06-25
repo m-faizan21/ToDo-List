@@ -1,14 +1,19 @@
-# In this i am going to make To-Do List with Drag and Drop Featute
+# Is Project Mein Banayenge To-Do List with Drag & Drop Feature
 
-## First we will make basic Structure 
-### 1. we will have three column..
-#### i. TO DO
-#### ii. Doing
-#### iii. Done
+## Sabse Pehle Banayenge Basic Structure
+### 1. Teen Columns Honge:
+- **TO DO**
+- **Doing**
+- **Done**
 
-#### changed font to poppins
+### Font ko Poppins mein Change Kiya
 
-## and after that we will work on css
+## Uske Baad CSS Pe Kaam Karenge
 
-## and we will add script 
-### started work on Drag & Drop feature
+## Phir JavaScript Add Karenge
+### Drag & Drop Feature Pe Kaam Shuru Kar Diya Hai
+
+---
+
+### Aap bhi apne tasks ko easily manage kar sakte hain is To-Do List ke through.  
+# Aage aur features add karne ka plan hai!
