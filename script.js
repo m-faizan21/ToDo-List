@@ -1,5 +1,5 @@
 
-
+// let rightClickedCard =null;
 function addTask(columnId) {
     const input = document.getElementById(`${columnId}-input`);
     const taskText = input.value.trim(); // Trim whitespace from the input text
@@ -21,6 +21,11 @@ function createTaskElement(taskText) {
     element.draggable = true; // Make the task element draggable
     element.addEventListener("dragstart", dragStart);
     element.addEventListener("dragend", dragEnd);
+    element.addEventListener("contextmenu",(event)=>{
+        event.preventDefault();
+        // rightClickedCard = this;
+        showContextMenu(event.pageX, event.pageY);
+    })
     return element;
 
 }
@@ -50,4 +55,11 @@ function dragOver(event) {
     event.preventDefault();
     const draggedCard = document.querySelector(".dragging");
     this.appendChild(draggedCard); // Append the dragged card to the current column
+}
+
+const contextMenu = document.querySelector(".context-menu");
+function showContextMenu(x, y) {
+    contextMenu.style.display = "block";
+    contextMenu.style.left = `${x}px`;
+    contextMenu.style.top = `${y}px`;
 }
