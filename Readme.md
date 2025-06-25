@@ -3,9 +3,11 @@
 ## First we will make basic Structure 
 ### 1. we will have three column..
 #### i. TO DO
-#### ii. Doin
+#### ii. Doing
 #### iii. Done
 
 #### changed font to poppins
 
 ## and after that we will work on css
+
+## and we will add script 
