@@ -1,20 +1,27 @@
-# Is Project Mein Banayenge To-Do List with Drag & Drop Feature
+# To-Do List Application with Drag & Drop (Kanban Board)
 
-## Sabse Pehle Banayenge Basic Structure
-### 1. Teen Columns Honge:
-- **TO DO**
-- **Doing**
-- **Done**
+This project is a modern To-Do List application inspired by the Kanban methodology. It features an intuitive drag-and-drop interface, allowing users to efficiently manage their tasks across three columns: **To Do**, **Doing**, and **Done**.
 
-### Font ko Poppins mein Change Kiya
+## Features
 
-## Uske Baad CSS Pe Kaam Karenge
+- **Kanban Board Layout:** Organize tasks into three columns for clear workflow visualization.
+- **Drag & Drop:** Seamlessly move tasks between columns to update their status.
+- **Modern Typography:** Utilizes the Poppins font for a clean and professional look.
 
-## Phir JavaScript Add Karenge
-### Drag & Drop Feature Pe Kaam Shuru Kar Diya Hai
+## Getting Started
+
+1. Clone the repository.
+2. Open the project in your preferred code editor.
+3. Follow the setup instructions in the documentation to run the application locally.
+
+## Future Plans
+
+We are actively working on adding more features, including:
+
+- **AI Integration:** Smart suggestions and task automation powered by artificial intelligence.
+- Enhanced customization options.
+- Improved user experience and accessibility.
 
 ---
 
-### Aap bhi apne tasks ko easily manage kar sakte hain is To-Do List ke through.  
-# Aage aur features add karne ka plan hai! 
-
+Easily manage your tasks and boost productivity with this To-Do List application. Stay tuned for upcoming features!
