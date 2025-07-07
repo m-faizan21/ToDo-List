@@ -90,3 +90,34 @@ body{
     cursor: pointer;
     
 }
+
+@media (max-width: 900px) {
+    .board {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 5px;
+    }
+    .board {
+        padding: 0;
+    }
+    .column {
+        padding: 10px;
+    }
+    h2 {
+        font-size: 1.2em;
+    }
+    .task-input, .add-task {
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 5px;
+    }
+}

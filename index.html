@@ -11,21 +11,21 @@
     <div class="board">
         <!-- to do column -->
         <div class="column" id="todo">
-            <h2>To Do</h2>
+            <h2>To Do (<span id="todo-count">0</span>)</h2>
             <div class="tasks" id="todo-tasks"></div>
             <input type="text" class=" task-input" id="todo-input" placeholder="Add a new task...">
             <button class="add-task" onclick="addTask('todo')">Add Tasks</button>
         </div>
         <!-- doing column -->
         <div class="column" id="doing">
-            <h2>Doing</h2>
+            <h2>Doing (<span id="doing-count">0</span>)</h2>
             <div class="tasks" id="doing-tasks"></div>
             <input type="text" class=" task-input" id="doing-input" placeholder="Add a new task...">
             <button class="add-task" onclick="addTask('doing')">Add Tasks</button>
         </div>
         <!-- done column -->
         <div class="column" id="done">
-            <h2>Done</h2>
+            <h2>Done (<span id="done-count">0</span>)</h2>
             <div class="tasks" id="done-tasks"></div>
             <input type="text" class=" task-input" id="done-input" placeholder="Add a new task...">
             <button class="add-task" onclick="addTask('done')">Add Tasks</button>
@@ -33,8 +33,8 @@
     </div>
     <div class="context-menu">
         <ul>
-            <li onclick="editTask">Edit</li>
-            <li onclick="deleteTask">Delete</li>
+            <li onclick="editTask()">Edit</li>
+            <li onclick="deleteTask()">Delete</li>
         </ul>
         
     </div>
