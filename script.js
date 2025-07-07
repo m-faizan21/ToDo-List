@@ -24,6 +24,8 @@ function createTaskElement(taskText) {
     element.addEventListener("contextmenu",(event)=>{
         event.preventDefault();
         // rightClickedCard = this;
+        console.log(event.pageX, event.pageY );
+        
         showContextMenu(event.pageX, event.pageY);
     })
     return element;
